@@ -12,6 +12,7 @@
 
 ### Tips
 - Use slicing to **rotate a list** (e.g. `A[k:] + A[:k]` rotates `A` by `k` to the left)
+- List comprehension — succinct way of creating lists (clearer than `map()` and lambda functions, and supports multiple levels of looping), but don't use more than two nested comprehension + indentation in conventional nested for loops makes the programme easier to read
 
 #TODO:  
 - [ ] deep copy vs shallow copy
